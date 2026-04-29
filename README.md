@@ -2,8 +2,6 @@
 
 AI Codebase Onboarding Agent is a Python CLI that turns an unfamiliar repository into a practical AI-written onboarding report. It scans the project locally, selects high-signal files, sends grounded context to an OpenAI-compatible model API, and writes a Markdown guide for new developers.
 
-Current status: **working MVP**.
-
 The project already supports end-to-end report generation, professional terminal logging, selective file reading, multi-language repository detection, and optional `SKILL.md` creation when the AI determines the target project can become a reusable agent skill.
 
 ## What It Does
