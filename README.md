@@ -4,6 +4,9 @@ AI Codebase Onboarding Agent is a Python CLI that turns an unfamiliar repository
 
 The project already supports end-to-end report generation, professional terminal logging, selective file reading, multi-language repository detection, and optional `SKILL.md` creation when the AI determines the target project can become a reusable agent skill.
 
+<img width="1635" height="657" alt="image" src="https://github.com/user-attachments/assets/9f4a46b9-6b3d-4852-b9fb-bacaeb680a49" />
+
+
 ## What It Does
 
 - Generates a clean onboarding report for a target repository.
