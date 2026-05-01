@@ -192,9 +192,3 @@ Current test coverage includes:
 - Add deeper framework-specific analyzers.
 - Add configurable context budgets.
 - Add optional validation for generated `SKILL.md`.
-
-## Submission Pitch
-
-I built an AI-powered Codebase Onboarding Agent that helps developers understand unfamiliar repositories faster. The agent scans a codebase, infers architecture, detects frameworks and entrypoints, extracts important symbols, selects high-signal file excerpts, flags onboarding risks, and sends grounded repository evidence to an OpenAI-compatible model API using `gpt-5.4` to produce a natural-language onboarding brief.
-
-The core logic is a multi-agent workflow: a Discovery Agent inventories files, an Architecture Agent maps frameworks and modules, a Code Understanding Agent extracts symbols, a Context Selection Agent selects important file excerpts, a Risk Agent identifies missing tests or unclear entrypoints, an AI Reasoning Agent writes a role-specific onboarding explanation, a Report Agent synthesizes the final guide, and a Skill Assessment Agent decides whether the project can be converted into a reusable `SKILL.md` for agent platforms such as Hermes, OpenClaw, and Codex.
